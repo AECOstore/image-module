@@ -1,5 +1,5 @@
 {
-  "name": "viewer",
+  "name": "image",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -15,7 +15,7 @@
     "@types/react-router-dom": "^5",
     "history": "4.10.1",
     "path-to-regexp": "1.8.0",
-    "piral-cli": "^0.14.31",
+    "piral-cli": "^0.14.32",
     "piral-cli-webpack5": "^0.14.32",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -25,7 +25,7 @@
     "typescript": "latest"
   },
   "scripts": {
-    "start": "pilet debug --port 2003",
+    "start": "pilet debug --port 2007",
     "build": "pilet build",
     "upgrade": "pilet upgrade"
   },
@@ -56,6 +56,7 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@inrupt/solid-client-authn-browser": "^1.12.2",
+    "@inrupt/vocab-common-rdf": "^1.0.5",
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.6",
     "@xeokit/xeokit-sdk": "^1.9.0",

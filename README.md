@@ -1,2 +1,2 @@
-# Viewer module
-Viewer module for visualising and interacting with GlTF documents in a ConSolid project.
+# Image module
+Viewer module for interacting with images in a ConSolid project.
