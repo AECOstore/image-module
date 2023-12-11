@@ -63,7 +63,11 @@
     "buffer": "^6.0.3",
     "consolid-daapi": "^0.0.8",
     "consolid-raapi": "^0.0.9",
-    "consolid-shell": "file:../../shell/dist/emulator/consolid-shell-1.0.1.tgz",
-    "stream-browserify": "^3.0.0"
+    "consolid-shell": "github:AECOstore/shell",
+    "material-survey": "^2.1.0",
+    "path-browserify": "^1.0.1",
+    "react-image-annotate": "^1.7.10",
+    "stream-browserify": "^3.0.0",
+    "styled-components": "^4.4.1"
   }
 }

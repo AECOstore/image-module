@@ -11,6 +11,7 @@ export function setup(app: PiletApi) {
   app.showNotification(`Hello from ${app.meta.name} component!`, {
     autoClose: 2000,
   });
+  console.log("am", app.meta)
   app.registerTile(Module, {
     initialColumns: app.meta["initialColumns"],
     initialRows: app.meta["initialRows"],
